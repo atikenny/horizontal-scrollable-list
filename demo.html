@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Horizontal scrollable list</title>
+        <style type="text/css">
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            #content-container {
+                width: 400px;
+            }
+
+            .horizontal-scrollable-list {
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+
+            .horizontal-scrollable-list > li {
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content-container">
+            <ul class="horizontal-scrollable-list">
+                <li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li><li>Item 6</li><li>Item 7</li><li>Item 8</li><li>Item 9</li><li>Item 10</li>
+            </ul>
+        </div>
+    </body>
+</html>
